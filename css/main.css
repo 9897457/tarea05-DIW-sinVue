@@ -5,7 +5,9 @@
 body.login {
     background-color: #34889c;
     background: linear-gradient(to right, #34889c, #4678c8);
-}
+    height: 100vh;
+    overflow: auto;
+} 
 
 
 .bg-login {
@@ -28,6 +30,34 @@ body.login {
 }
 .callout-info {
     border-left-width: 6px;
-    border-left-color: #36b9cc;;
+    border-left-color: #36b9cc;
+}
 
+.espacio {
+    padding: 3em;
+}
+
+@media (max-height: 800px) {
+    .espacio {
+        padding: 2em !important;
+    }
+
+    .inputForm {
+        margin-bottom: 0 !important;
+    }
+}
+
+@media (max-height: 700px) {
+    .espacio {
+        padding: 0em !important;
+    }
+
+    .inputForm {
+        margin-bottom: 0em !important;
+    }
+    
+    .registrar {
+        margin: 0em !important;
+        margin-top: 1em !important;
+    }
 }
