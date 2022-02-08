@@ -37,20 +37,35 @@ body.login {
     padding: 3em;
 }
 
+@media (max-height: 10000px) {
+    .espacio {
+        padding: 8em !important;
+    }
+
+   
+    .inputForm {
+        margin-bottom: 0 !important;
+    }
+}
+
+
 @media (max-height: 800px) {
     .espacio {
         padding: 2em !important;
     }
+
+    
 
     .inputForm {
         margin-bottom: 0 !important;
     }
 }
 
-@media (max-height: 700px) {
+@media (max-height: 600px) {
     .espacio {
         padding: 0em !important;
     }
+
 
     .inputForm {
         margin-bottom: 0em !important;
