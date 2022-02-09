@@ -37,6 +37,8 @@ body.login {
     padding: 3em;
 }
 
+
+
 @media (max-height: 10000px) {
     .espacio {
         padding: 8em !important;
