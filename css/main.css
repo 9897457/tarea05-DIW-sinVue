@@ -42,6 +42,14 @@ body.login {
     flex-direction: row !important;
 }
 
+.card-img-top {
+    display: flex;
+    align-self: center;
+    width: 18vh;
+    padding-top: 1rem;
+
+}
+
 @media (max-height: 10000px) {
     .espacio {
         padding: 8em !important;
