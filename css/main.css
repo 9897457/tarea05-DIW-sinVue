@@ -37,7 +37,10 @@ body.login {
     padding: 3em;
 }
 
-
+.pequeno {
+    display: flex !important;
+    flex-direction: row !important;
+}
 
 @media (max-height: 10000px) {
     .espacio {
